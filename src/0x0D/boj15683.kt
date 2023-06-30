@@ -24,7 +24,7 @@ fun main() = with(System.`in`.bufferedReader()) {
     println(minCnt)
 }
 
-data class CCTV(val posX: Int, val posY: Int, val mode: Int)
+private data class CCTV(val posX: Int, val posY: Int, val mode: Int)
 
 private fun getCCTVs(): ArrayList<CCTV> =
     ArrayList<CCTV>().apply {
